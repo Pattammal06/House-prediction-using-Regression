@@ -149,7 +149,7 @@ The regression model successfully predicts house prices based on housing feature
 
 ## 👩‍💻 Author
 
-**Priya Yoga**
+**Pattammal M**
 
 B.E. Computer Science and Engineering (AIML)
 
