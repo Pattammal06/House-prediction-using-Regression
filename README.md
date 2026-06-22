@@ -52,7 +52,7 @@ The dataset contains various housing attributes such as:
 ### 1. Import Required Libraries
 Load all necessary Python libraries for data analysis and machine learning.
 
-```
+```python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
