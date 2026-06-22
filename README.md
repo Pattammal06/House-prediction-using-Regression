@@ -1,6 +1,6 @@
-# 🏠 House Price Prediction Using Regression
+#  House Price Prediction Using Regression
 
-## 📌 Project Overview
+##  Project Overview
 
 This project predicts house prices using Machine Learning Regression techniques. The model is trained on housing-related features such as area, number of bedrooms, bathrooms, parking spaces, and other property characteristics to estimate the house price accurately.
 
@@ -8,7 +8,7 @@ The project demonstrates the complete Machine Learning workflow including data p
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Predict house prices using regression algorithms.
 - Analyze the factors affecting house prices.
@@ -17,7 +17,7 @@ The project demonstrates the complete Machine Learning workflow including data p
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -29,7 +29,7 @@ The project demonstrates the complete Machine Learning workflow including data p
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains various housing attributes such as:
 
@@ -47,10 +47,21 @@ The dataset contains various housing attributes such as:
 
 ---
 
-## 🚀 Project Workflow
+##  Project Workflow
 
 ### 1. Import Required Libraries
 Load all necessary Python libraries for data analysis and machine learning.
+
+```
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error,mean_squared_error,root_mean_squared_error,r2_score
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+```
 
 ### 2. Load Dataset
 Read the housing dataset using Pandas.
@@ -92,7 +103,7 @@ Evaluate performance using:
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 The project includes:
 
@@ -101,9 +112,27 @@ The project includes:
 - Distribution Plots
 - Regression Analysis Graphs
 
+## Simple Linear Regression :
+
+<img width="467" height="393" alt="image" src="https://github.com/user-attachments/assets/7a11a500-b75d-4a42-83d9-4ec19acf49a5" />
+
+<img width="540" height="470" alt="image" src="https://github.com/user-attachments/assets/4ff1a105-f04e-4642-8755-2b4ad75083cf" />
+
+
+## Multi Linear Regression :
+
+<img width="562" height="470" alt="image" src="https://github.com/user-attachments/assets/81b1ebe2-e719-49f6-aa25-81e776cf28c8" />
+
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/55667a42-c957-4b1c-9caa-1dccb07ff96a" />
+
+<img width="463" height="470" alt="image" src="https://github.com/user-attachments/assets/59182ebb-b10a-4488-9f81-1453ffe3ef7f" />
+
+<img width="405" height="427" alt="image" src="https://github.com/user-attachments/assets/2b16d507-8533-4a4b-a4f1-f5b877e10d65" />
+
+
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Clone the Repository
 
