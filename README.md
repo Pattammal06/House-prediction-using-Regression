@@ -137,7 +137,7 @@ The project includes:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/House-Price-Prediction-Using-Regression.git
+git clone hhttps://github.com/Pattammal06/House-prediction-using-Regression.git
 ```
 
 ### Install Dependencies
